@@ -1,7 +1,7 @@
 # YOLOv2-Tensorflow
 ## 运行环境：<br>
 Python3 + Tensorflow1.5 + OpenCV-python3.3.1 + Numpy1.13<br>
-windows和ubuntu环境都可以。<br><br>
+windows和ubuntu环境都可以<br><br>
 
 ## 准备工作：<br>
 请在[yolo2检测模型](https://pan.baidu.com/s/1ZeT5HerjQxyUZ_L9d3X52w)下载模型，并放到yolo2_model文件夹下<br><br>
@@ -22,7 +22,7 @@ windows和ubuntu环境都可以。<br><br>
 7、yolo2_data文件夹：包含待检测输入图片car.jpg、检测后的输出图片detection.jpg、coco数据集80个类别名称coco_classes.txt<br><br>
 
 ## 运行Main.py即可得到效果图：<br>
-1、car.jpg：输入的待检测图片<br>
+1、car.jpg：输入的待检测图片<br><br>
 ![image](https://github.com/KOD-Chen/YOLOv2-Tensorflow/blob/master/yolo2_data/car.jpg)<br>
-2、detected.jpg：检测结果可视化<br>
+2、detected.jpg：检测结果可视化<br><br>
 ![image](https://github.com/KOD-Chen/YOLOv2-Tensorflow/blob/master/yolo2_data/detection.jpg)<br>
