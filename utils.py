@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # --------------------------------------
 # @Time    : 2018/5/16$ 14:48$
-# @Author  : 陈思成
+# @Author  : KOD Chen
 # @Email   : 821237536@qq.com
 # @File    : utils$.py
 # Description :功能函数，包含：预处理输入图片、筛选边界框NMS、绘制筛选后的边界框。
