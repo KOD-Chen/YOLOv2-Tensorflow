@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # --------------------------------------
 # @Time    : 2018/5/16$ 17:12$
-# @Author  : 陈思成
+# @Author  : KOD Chen
 # @Email   : 821237536@qq.com
 # @File    : configs$.py
 # Description :anchor尺寸、coco数据集的80个classes类别名称
