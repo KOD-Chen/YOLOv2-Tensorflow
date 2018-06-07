@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # --------------------------------------
 # @Time    : 2018/5/16$ 17:17$
-# @Author  : 陈思成
+# @Author  : KOD Chen
 # @Email   : 821237536@qq.com
 # @File    : Main$.py
 # Description :YOLO_v2主函数.
