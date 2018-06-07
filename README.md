@@ -1,4 +1,8 @@
 # YOLOv2-Tensorflow
+## 声明：<br>
+更详细的代码解读[Tensorflow实现YOLO2](https://zhuanlan.zhihu.com/p/36902889).<br>
+欢迎关注[我的知乎](https://www.zhihu.com/people/chensicheng/posts).<br><br>
+
 ## 运行环境：<br>
 Python3 + Tensorflow1.5 + OpenCV-python3.3.1 + Numpy1.13<br>
 windows和ubuntu环境都可以<br><br>
@@ -16,7 +20,7 @@ windows和ubuntu环境都可以<br><br>
 （2）筛选解码后的回归边界框——NMS<br>
 （3）绘制筛选后的边界框<br>
 6、Loss.py：Yolo_v2 Loss损失函数（train时候用，预测时候没有调用此程序）<br>
-（1）IOU值最大的那个anchor与ground truth匹配，对应的预测框用来预测这个ground truth：计算xywh、置信度c(目标值为1)、类别概率p误差。<br>
+（1）IOU值最大的那个anchor与ground truth匹配，对应的预测框用来预测这个ground truth:计算xywh、置信度c(目标值为1)、类别概率p误差。<br>
 （2）IOU小于某阈值的anchor对应的预测框：只计算置信度c(目标值为0)误差。<br>
 （3）剩下IOU大于某阈值但不是max的anchor对应的预测框：丢弃，不计算任何误差。<br>
 7、yolo2_data文件夹：包含待检测输入图片car.jpg、检测后的输出图片detection.jpg、coco数据集80个类别名称coco_classes.txt<br><br>
