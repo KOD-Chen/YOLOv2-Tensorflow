@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # --------------------------------------
 # @Time    : 2018/5/15$ 17:01$
-# @Author  : 陈思成
+# @Author  : KOD Chen
 # @Email   : 821237536@qq.com
 # @File    : decode$.py
 # Description :解码darknet19网络得到的参数.
